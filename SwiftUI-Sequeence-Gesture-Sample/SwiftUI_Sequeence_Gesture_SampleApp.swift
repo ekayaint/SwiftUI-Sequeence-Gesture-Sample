@@ -2,7 +2,7 @@
 //  SwiftUI_Sequeence_Gesture_SampleApp.swift
 //  SwiftUI-Sequeence-Gesture-Sample
 //
-//  Created by Erhan Kaya on 8.05.2023.
+//  Created by ekayaint on 8.05.2023.
 //
 
 import SwiftUI

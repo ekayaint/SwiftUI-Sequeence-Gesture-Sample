@@ -11,9 +11,6 @@
 		4948FAFB2A09767C00019CC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948FAFA2A09767C00019CC5 /* ContentView.swift */; };
 		4948FAFD2A09767E00019CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4948FAFC2A09767E00019CC5 /* Assets.xcassets */; };
 		4948FB002A09767E00019CC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4948FAFF2A09767E00019CC5 /* Preview Assets.xcassets */; };
-		4948FB0A2A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948FB092A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleTests.swift */; };
-		4948FB142A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948FB132A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITests.swift */; };
-		4948FB162A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948FB152A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,8 @@
 		4948FAFC2A09767E00019CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4948FAFF2A09767E00019CC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4948FB052A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Sequeence-Gesture-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4948FB092A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sequeence_Gesture_SampleTests.swift; sourceTree = "<group>"; };
 		4948FB0F2A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Sequeence-Gesture-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4948FB132A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sequeence_Gesture_SampleUITests.swift; sourceTree = "<group>"; };
-		4948FB152A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49B9EB592A0FF85C006AAFBF /* Sr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Sr.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +69,8 @@
 		4948FAEC2A09767C00019CC5 = {
 			isa = PBXGroup;
 			children = (
+				49B9EB582A0FF84D006AAFBF /* img */,
 				4948FAF72A09767C00019CC5 /* SwiftUI-Sequeence-Gesture-Sample */,
-				4948FB082A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleTests */,
-				4948FB122A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleUITests */,
 				4948FAF62A09767C00019CC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,21 +104,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4948FB082A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleTests */ = {
+		49B9EB582A0FF84D006AAFBF /* img */ = {
 			isa = PBXGroup;
 			children = (
-				4948FB092A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleTests.swift */,
+				49B9EB592A0FF85C006AAFBF /* Sr.gif */,
 			);
-			path = "SwiftUI-Sequeence-Gesture-SampleTests";
-			sourceTree = "<group>";
-		};
-		4948FB122A09767E00019CC5 /* SwiftUI-Sequeence-Gesture-SampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4948FB132A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITests.swift */,
-				4948FB152A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift */,
-			);
-			path = "SwiftUI-Sequeence-Gesture-SampleUITests";
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4948FB0A2A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4948FB142A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITests.swift in Sources */,
-				4948FB162A09767E00019CC5 /* SwiftUI_Sequeence_Gesture_SampleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
